@@ -1,9 +1,9 @@
-def prime?(integer)
-  if integer <= 1
+def prime?(n)
+  if n <= 1
     return false
   elsif
-    (2..integer - 1).each do |i|
-      if integer % i == 0
+    (2..n - 1).each do |i|
+      if n % i == 0
       return false
     end
   end

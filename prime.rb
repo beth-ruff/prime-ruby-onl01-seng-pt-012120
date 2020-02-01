@@ -1,16 +1,10 @@
-
-
 def prime?(integer)
-  integer = ["2", "3", "11", "105557" ]
-  i = 0
-  while i < integer.length 
-    integer[i]
-    i += 1
-  end
-  
-  if integer.prime? (true) 
-    return true 
-  else
-    return false 
+  if integer <= 1
+    return false
+  elsif
+    (2..value - 1).each do |i|
+      if value % i == 0
+      return false
+    end
   end
 end
